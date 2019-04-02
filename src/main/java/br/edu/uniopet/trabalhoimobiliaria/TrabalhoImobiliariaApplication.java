@@ -41,7 +41,7 @@ public class TrabalhoImobiliariaApplication implements CommandLineRunner {
 
         Gson gson = new Gson();
 
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("C:\\imobiliaria.json"));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("src/main/resources/imobiliaria.json"));
 
         Type type = new TypeToken<List<DadosImobiliaria>>() {
 
